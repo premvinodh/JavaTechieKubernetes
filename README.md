@@ -8,10 +8,11 @@ Commits and their associated topics
 -----------------------------------
 Refer the section below on how to [get a specific commit(https://github.com/premvinodh/JavaTechieKubernetes#how-to-get-certain-commit-from-github-project)].
 
-| Sl.No		| Topic                                       											| Commit Hash           						|
-|:---------:|---------------------------------------------------------------------------------------|:---------------------------------------------:|
-| 	1.		| JavaTechie - Deployments via yaml configuration										| 7a226f5ff2e1c9881397af9c05dc7500364a9737		|
-| 	2.		| JavaTechie - Deploy springboot application along with mysql images on K8s minikube	| 3e79692261dc774f8bde5eac7ae871cbed4649ab		|
+| Sl.No		| Topic                                       																		| Commit Hash           						|
+|:---------:|-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------:|
+| 	1.		| JavaTechie - Deployments via yaml configuration																	| 7a226f5ff2e1c9881397af9c05dc7500364a9737		|
+| 	2.		| JavaTechie - Deploy springboot application along with mysql images on K8s minikube								| 3e79692261dc774f8bde5eac7ae871cbed4649ab		|
+| 	3.		| JavaTechie - Deploy springboot application along with mysql images on K8s minikube using configmaps and secrets	| 4bf4f954f9f9593202905077dc9635a73fbeafbe 		|
 
 
 ### How to get certain commit from GitHub project
