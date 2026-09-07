@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: springboot-k8s
+  name: springboot-k8s
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: springboot-k8s
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: springboot-k8s
+    spec:
+      containers:
+      - image: springboot-k8s-demo:1.0
+        name: springboot-k8s-demo
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
+        resources: {}
+status: {}
